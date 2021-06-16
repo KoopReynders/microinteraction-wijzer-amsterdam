@@ -45,10 +45,13 @@ main section#chat h2 {
     position: relative;
     font-size:1em;
     font-weight:normal;
-    margin-bottom: 2em;
-    transform-origin: 100% 50%  ;
-    animation:expand .5s 1s 1 forwards ease-out;
+    margin-bottom: 10em;
+    transform-origin: 100% 50%;
+    transition:.25s .25s ease-out;
 }
+main.observed h2 {
+    transform:scale(1.25)
+} 
 main section#chat h2 img {
     position:absolute;
     left:-1.5em;
@@ -69,8 +72,3 @@ main section#chat iframe {
     -webkit-transition: all .2s;
     transition: all .2s;
 }
-
-@keyframes expand {
-    0%      { transform: scale(1); }
-    100%    { transform: scale(1.2); }
-  }
