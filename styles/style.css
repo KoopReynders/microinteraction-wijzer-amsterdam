@@ -1,0 +1,76 @@
+body {
+    font-family: Avenir-Medium,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    margin:0;
+}
+img {max-width: 100%;}
+header {
+    background: url(pattern.svg),linear-gradient(-30deg,#5855b0,#a79cfb);
+    color: #002b37;
+    padding:4rem;
+    padding-bottom:15em;
+}
+header img {
+    max-height:32px
+}
+header h1 {
+    font-size: 3.5em;
+    max-width:40vw
+}
+header h1 span {
+    color:#fff
+}
+header p {
+    font-size: 1.5em;
+}
+main {
+    padding:4rem;
+}
+main section {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-bottom:5em;
+}
+main section#chat {
+    margin-top: -15em;
+}
+main section#chat h2 {
+    padding: 1em 2.5em;
+    background: #fff;
+    text-align: center;
+    border-radius: .5em;
+    box-shadow: 0 2px 34px 0 rgb(124 118 211 / 56%);
+    align-self: flex-end;
+    position: relative;
+    font-size:1em;
+    font-weight:normal;
+    margin-bottom: 2em;
+    transform-origin: 100% 50%  ;
+    animation:expand .5s 1s 1 forwards ease-out;
+}
+main section#chat h2 img {
+    position:absolute;
+    left:-1.5em;
+    top:-1.5em;
+    width:3em
+}
+main section#chat iframe {
+    padding: 0;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 0 50px rgb(53 47 122 / 80%);
+    box-shadow: 0 0 50px rgb(53 47 122 / 80%);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+@keyframes expand {
+    0%      { transform: scale(1); }
+    100%    { transform: scale(1.2); }
+  }
