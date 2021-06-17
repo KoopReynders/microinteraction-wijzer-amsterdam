@@ -40,7 +40,7 @@ Eerst bekijken we wat het probleem is en waarom een microinteractie een goede op
 2. Bekijk hoe de chat werkt en wat je er mee kan doen. Probeer bijvoorbeeld "Kan ik veilig online bankzaken regelen?" en kijk wat voor antwoord je krijgt. 
 3. Bedenk waarom mensen de chat niet gebruiken.
 
-<img width="1252" alt="Entree pagina van wijzer.amsterdam" src="https://user-images.githubusercontent.com/1391509/122397757-8e47e180-cf79-11eb-9e64-92b3f3817311.png"> Entree pagina van wijzer.amsterdam"
+<img width="1252" alt="Entree pagina van wijzer.amsterdam" src="https://user-images.githubusercontent.com/1391509/122397757-8e47e180-cf79-11eb-9e64-92b3f3817311.png">
 
 #### Materiaal
 
