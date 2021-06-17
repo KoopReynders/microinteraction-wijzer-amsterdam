@@ -1,146 +1,109 @@
-# {Naam}
+# Microinteraction ontwerpen en maken voor Wijzer.amsterdam
 
-De conventie voor naamgeving is opdrachtgever-opdracht-ondersteuningsniveau
-Topics: opdrachtgever-naam, semester-naam, sprint-naam, niveau-naam
+De chat op de website wijzer.amsterdam wordt nauwelijks gebruikt. Mensen snappen niet dat ze een vraag kunnen stellen en gaan op de website zoeken naar hun onderwerp.
+
+Hoe kunnen we ervoor zorgen dat mensen de chat meer gaan gebruiken? 
+
 
 ## Context
 *Bij welke sprint hoort deze leertaak en welk niveau heeft deze leertaak.*
 
-Leertaak: {Beschrijving van de leertaak}. Deze leertaak hoort bij {sprint # "titel van de sprint}. Dit is een {niveau van de opdracht} die je {individueel, in team} uitvoert voor {opdrachtgever}
+Deze leertaak is onderdeel van het SKC programma van FDND. In een workshop gaan we de opdracht en de oplossing laten zien en daarna kunnen studenten zelf proberen de opdracht te maken. 
 
 ## Briefing
 *In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
 
-{Beschrijf de opdrachtgever}
-{Beschrijf de opdracht}
+Wijzer.amsterdam is een project van de Openbare Bibliotheek Amsterdam en de gemeente Amsterdam. Het project is bedoeld om mensen te helpen met vragen over internet en veiligheid.
+
+Op de entree pagina van de website staat een chatbot waar mensen een vraag kunnen stellen omdat ze iets willen weten of iets zoeken. De chat op de website wordt nauwelijks gebruikt. Mensen snappen niet dat ze een vraag kunnen stellen en gaan op de website zoeken naar hun onderwerp.
+
+Hoe kunnen we ervoor zorgen dat mensen de chat meer gaan gebruiken? 
+
 
 ## Doel van deze opdracht
 *Wat leer je in deze taak.*
 
-{beschrijf de taak in actieve taal: Je leert hoe...}
+Je leert wat een microinteractie is en hoe je een microinteractie kan ontwerpen en maken. 
 
 ## Werkwijze
 *De werkwijze volgt de fasering van de Development Life Cycle.*
 
 {geef de opdracht, in meer of mindere mate van sturing afhankelijk van het niveau van de taak}
 
-Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
+Deze opdracht gaat over de fases van de DLC [ontwerpen](#ontwerpen) en [bouwen](#bouwen).
+
 
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
 
+ Eerst bekijken we wat het probleem is en waarom een microinteractie een goede oplossing is.
+ 
+
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Open de website [wijzer.amsterdam](https://wijzer.amsterdam) en bekijk en lees alles op de entree pagina.
+2. Bekijk hoe de chat werkt en wat je er mee kan doen. Probeer bijvoorbeeld "Kan ik veilig online bankzaken regelen?" en kijk wat voor antwoord je krijgt. 
+3. Bedenk waarom mensen de chat niet gebruiken.
+
+<img width="1252" alt="Entree pagina van wijzer.amsterdam" src="https://user-images.githubusercontent.com/1391509/122397757-8e47e180-cf79-11eb-9e64-92b3f3817311.png"> Entree pagina van wijzer.amsterdam"
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [wijzer.amsterdam](https://wijzer.amsterdam)
+
 
 </details>
 
 ### Ontwerpen
 *In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
 
+We schetsen de verschillende states van de microinteractie. Bij de schetsen maak je aantekeningen met uitleg en hoe je het kan bouwen. 
+ 
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Bekijk de website van [Dmytro Svarytsevych](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/) over microinteractions en kijk of er voorbeelden staan die je voor deze opdracht kan gebruiken. 
+2. Schets de entree pagina van wijzer.amsterdam 
+3. Schets verschillende states van de microinteractie, schrijf de uitleg en de rule, trigger en feedback op. 
+4. Schrijf bij de verschillende states welke html, css en/of javascript je nodig hebt om de micorinteractie te maken. 
+  
+![image](https://user-images.githubusercontent.com/1391509/122399091-c8fe4980-cf7a-11eb-85a5-3ae754f897b8.png)
+
+![image](https://user-images.githubusercontent.com/1391509/122399187-d9aebf80-cf7a-11eb-8b29-7e9734c1c5e5.png)
+
+![image](https://user-images.githubusercontent.com/1391509/122399235-e59a8180-cf7a-11eb-986c-3ac4760a6fb1.png)
+
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [7 secrets for enhancing UX with microinteractions van Dmytro Svarytsevych](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/)
+- [What is a microinteraction?](https://microinteractions.com/what-is-a-microinteraction/)
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/1391509/122399527-2befe080-cf7b-11eb-93ad-608e106eda84.png">
+- [An introduction to microinteractions](https://www.youtube.com/watch?v=EN7nu8hrcN4m)
+
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/1391509/122399357-0236b980-cf7b-11eb-83a3-b679aaada448.png">
+
 
 </details>
 
 ### Bouwen
 *In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
 
-<details>
-<summary>Aanpak</summary>
+Maak je ontwerp met HTML, CSS en Javascript. 
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
-
-### Integreren
-
-*In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
-
-<details>
-
-<summary>Aanpak</summary>
-
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-
-</details>
-
-### Testen
-*In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
+Voor het maken van deze microinteractie heb je de _IntersectionObserver_ nodig en maak je gebruik van de _querySelector_ en de _classList_ in Javascript. In CSS heb je _selectors_ en _transition_ nodig. 
 
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- - [Hey designers, if you only know one thing about JavaScript, this is what I would recommend](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
 
 </details>
 
-## Criteria
-*Definitions of done*
 
-{beschrijf de definitions of done}
-
-Focus sprint 1 - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design. Hoe gaan werken we bij FDND, wat wordt er van de student verwacht, welke mindset is nodig. Succes ervaren.
-
-Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durfen.
-
-Focus sprint 3 - De focus in deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Je maakt iets voor een mens. Praten met een mens, doorvragen, protoypen en testen en resultaten gebruiken.
-
-Focus sprint 4 - De focus in deze sprint ligt op het toepassen van een huisstijl en maken van formulieren. Living styleguide en Atomic design, Animeren, Toegankelijke formulieren.
-
-Focus sprint 5 - De focus van deze sprint ligt op navigatie en informatie architectuur van een website. Organiseren en structureren van informatie, Design Patterns toepassen, Navigatie, filteren en zoekstrategieën, Micro Interacties.
-
-Focus sprint 6 - De focus van deze sprint ligt op werkwijze, samenwerken. Toepassen wat je al hebt geleerd. Er achter komen dat je een bedrijf kan helpen en advies kan geven over verschillende frontend zaken zoals navigatie, toegankelijkheid, interface design.
-
-Focus sprint 7 - De focus in deze sprint ligt op team building, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.	Het doel van deze sprint is binding tussen studenten creeeren. Met deze squad ga je het doen! Samen studeren, leren en elkaar helpen. En iets gezamenlijks maken met een database dingen. Een sneak peak naar de rest van het semester.
-
-Focus sprint 8 - De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever, leren hoe je externe data kan laden en presenteren. Je hebt data, die ga je laden en tonen, zodat iemand daar iets mee kan doen.
-dat betekent veel voor de interfcace, het laden van de data kost tijd en de data kan veranderen, hoe toon je dat en hoe zorg je dat je gebruiker 'controle' ervaart.
-
-Focus sprint 9 - De focus van deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Server site rendering leren. Progressive enhancement leren. Core functionaliteit kunnen bepalen en implementeren				
 
 Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie, ook als er geen verbinding is met het internet.
 
