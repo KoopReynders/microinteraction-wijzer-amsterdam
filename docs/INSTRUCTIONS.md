@@ -58,9 +58,10 @@ We schetsen de verschillende states van de microinteractie. Bij de schetsen maak
 <summary>Aanpak</summary>
 
 1. Bekijk de website van [Dmytro Svarytsevych](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/) over microinteractions en kijk of er voorbeelden staan die je voor deze opdracht kan gebruiken. 
-2. Schets de entree pagina van wijzer.amsterdam 
-3. Schets verschillende states van de microinteractie, schrijf de uitleg en de rule, trigger en feedback op. 
-4. Schrijf bij de verschillende states welke html, css en/of javascript je nodig hebt om de micorinteractie te maken. 
+2. Schets eerst de entree pagina van wijzer.amsterdam bepaal waar de microinteractie moet staan.
+3. Schets verschillende states van de microinteractie.
+4. Schrijf uitleg bij je schetsen en bebschrijf de rule, trigger en feedback van de microinteractie. 
+6. Schrijf bij de verschillende states welke HTML, CSS en/of JS je nodig hebt om de micorinteractie te maken. 
   
 ![image](https://user-images.githubusercontent.com/1391509/122399091-c8fe4980-cf7a-11eb-85a5-3ae754f897b8.png)
 
