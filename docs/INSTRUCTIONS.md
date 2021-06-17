@@ -81,9 +81,11 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 </details>
 
 ### Integreren
+
 *In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
 
 <details>
+
 <summary>Aanpak</summary>
 
 1. {geef de stappen}
@@ -145,5 +147,3 @@ Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten we
 Focus sprint 11 - De focus van deze sprint ligt op het maken van multi-user omgeving door het opzetten van een real-time verbinding tussen client en server. Job Stories, wireflowing, realtime en data management.
 
 Focus sprint 12 - De focus van deze sprint ligt op werkwijze en samenwerken, en hoe je een opdrachtgever kan helpen met het uitwerken van een concept. Iteratief (samen) werken: prototypen en testen om een concept te realiseren.
-
-

@@ -13,19 +13,22 @@ button {
     padding:.5rem .75rem;
     border-radius:.5rem;
     font-weight: bold;
+    cursor: pointer; /* muis handje op de button */
 }
 header {
     background: url(pattern.svg),linear-gradient(-30deg,#5855b0,#a79cfb);
     color: #002b37;
     padding:4rem;
-    padding-bottom:15em;
+    /padding-bottom:15em; /* dit hoeft niet (meer) */
+    height: 66vh; /* ongeveer 2/3 deel van de viewport */
 }
 header img {
-    max-height:32px
+    max-height:32px /* Waarom is dit nodig? */
 }
 header h1 {
     font-size: 3.5em;
-    max-width:40vw
+    line-height: 1.2;
+    max-width: 42rem; /* zoals op het plaatje */
 }
 header h1 span {
     color:#fff
@@ -40,10 +43,10 @@ main section {
     display:flex;
     flex-direction:column;
     justify-content: center;
-    margin-bottom:5em;
+    margin-bottom: 14em; /* iets meer om de content naar beneden te duwen */
 }
 main section#chat {
-    margin-top: -15em;
+    margin-top: -18rem; /* iets zodat het element goed in de header staat */
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -82,8 +85,8 @@ div.card {
     transition:.25s .5s;
 }
 main.observed div.card {
-    width:90vw;
-    height:80vh;
+    width:34em;
+    height:16em;
     position: relative;
 }
 main section#chat div.card img {
@@ -104,8 +107,17 @@ div.inner {
     transform-origin: 50% 50%;
     transform-style: preserve-3d;
 }
-div.card.flipped div.inner {
+
+/* 
+    ook de flipped class op de main
+    zodat de breedte van de card kan worden aangepast
+*/
+main.flipped div.card div.inner {
     transform: rotateY(180deg);
+}
+main.flipped div.card {
+    width:80vw;
+    height:60vh;
 }
 
 div.inner div {
@@ -134,12 +146,14 @@ main.observed div.front button {
 div.back {
     transform: rotateY(180deg);
 }
-div.back button {
+
+/* geen button op de chat, die hoeft niet gesloten te worden */
+/* div.back button { 
     position: absolute;
     right:-1.5em;
     top:-1.5em;
     border-radius:50%;
-}
+} */
 
 main section#wij-helpen-met {
     margin-top:10em

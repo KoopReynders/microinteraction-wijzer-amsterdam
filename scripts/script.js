@@ -10,7 +10,10 @@ observer.observe(chat)
 buttons.forEach(button => button.addEventListener('click', flip))
 
 function showChat(entries, observer) { 
+  console.log("observer", entries);
+
   entries.forEach(entry => {
+
     if(entry.isIntersecting) {
       main.classList.add('observed')
     } else {
@@ -20,5 +23,6 @@ function showChat(entries, observer) {
 };
 
 function flip () {
-  card.classList.toggle('flipped')
+  //card.classList.toggle('flipped')
+  main.classList.add('flipped') //class op de main zodat de breedte van de card kan worden aangepast
 }
