@@ -6,12 +6,10 @@ Hoe kunnen we ervoor zorgen dat mensen de chat meer gaan gebruiken?
 
 
 ## Context
-*Bij welke sprint hoort deze leertaak en welk niveau heeft deze leertaak.*
 
 Deze leertaak is onderdeel van het SKC programma van FDND. In een workshop gaan we de opdracht en de oplossing laten zien en daarna kunnen studenten zelf proberen de opdracht te maken. 
 
 ## Briefing
-*In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
 
 Wijzer.amsterdam is een project van de Openbare Bibliotheek Amsterdam en de gemeente Amsterdam. Het project is bedoeld om mensen te helpen met vragen over internet en veiligheid.
 
@@ -21,22 +19,18 @@ Hoe kunnen we ervoor zorgen dat mensen de chat meer gaan gebruiken?
 
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
 
 Je leert wat een microinteractie is en hoe je een microinteractie kan ontwerpen en maken. 
 
 ## Werkwijze
-*De werkwijze volgt de fasering van de Development Life Cycle.*
 
-{geef de opdracht, in meer of mindere mate van sturing afhankelijk van het niveau van de taak}
-
-Deze opdracht gaat over de fases van de DLC [ontwerpen](#ontwerpen) en [bouwen](#bouwen).
+Deze opdracht gaat over de fases [analyseren](#analyseren), [ontwerpen](#ontwerpen) en [bouwen](#bouwen).
 
 
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
 
- Eerst bekijken we wat het probleem is en waarom een microinteractie een goede oplossing is.
+Eerst bekijken we wat het probleem is en waarom een microinteractie een goede oplossing is.
  
 
 <details>
@@ -79,13 +73,10 @@ We schetsen de verschillende states van de microinteractie. Bij de schetsen maak
 
 - [7 secrets for enhancing UX with microinteractions van Dmytro Svarytsevych](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/)
 - [What is a microinteraction?](https://microinteractions.com/what-is-a-microinteraction/)
-<img width="409" alt="image" src="https://user-images.githubusercontent.com/1391509/122399527-2befe080-cf7b-11eb-93ad-608e106eda84.png">
 - [An introduction to microinteractions](https://www.youtube.com/watch?v=EN7nu8hrcN4m)
 
-<img width="437" alt="image" src="https://user-images.githubusercontent.com/1391509/122399357-0236b980-cf7b-11eb-83a3-b679aaada448.png">
-
-
 </details>
+
 
 ### Bouwen
 *In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
@@ -99,14 +90,7 @@ Voor het maken van deze microinteractie heb je de _IntersectionObserver_ nodig e
 
 #### Materiaal
 
-- - [Hey designers, if you only know one thing about JavaScript, this is what I would recommend](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
+- [Hey designers, if you only know one thing about JavaScript, this is what I would recommend](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
 
 </details>
 
-
-
-Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie, ook als er geen verbinding is met het internet.
-
-Focus sprint 11 - De focus van deze sprint ligt op het maken van multi-user omgeving door het opzetten van een real-time verbinding tussen client en server. Job Stories, wireflowing, realtime en data management.
-
-Focus sprint 12 - De focus van deze sprint ligt op werkwijze en samenwerken, en hoe je een opdrachtgever kan helpen met het uitwerken van een concept. Iteratief (samen) werken: prototypen en testen om een concept te realiseren.
