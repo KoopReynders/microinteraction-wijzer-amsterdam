@@ -17,11 +17,25 @@
 
     <main>
         <section id="chat">
-            <h2>Waar ben je vandaag naar op zoek?
+            <div class="card">
                 <img src="assets/oba-wijzer-chat-icon.png" alt="Wijzer.Amsterdam Chat">
-            </h2>
-
-            <iframe src="chat.html" seamless="" allowfullscreen="" role="dialog" title="Chat"></iframe>
+                <div class="inner">
+                    <div class="front">
+                        <h2>Waar ben je vandaag naar op zoek?</h2>
+                        <p>Type je onderwerp voor informatie</p>
+                        <button>Zoek</button>
+                    </div>
+                    <div class="back">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
+                            </svg>
+                        </button>
+                        <iframe src="chat.html" seamless="" allowfullscreen="" role="dialog" title="Chat"></iframe>
+                    </div>
+                </div>
+            </div>
         </section> 
 
         <section id="wij-helpen-met">
