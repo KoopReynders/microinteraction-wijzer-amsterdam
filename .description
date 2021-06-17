@@ -1,11 +1,11 @@
 ---
-title: "task title"                 # Same as repo name but with spaces and caps
-subtitle: "descriptive title"       # A descriptive title for this specific task
-client: "The client name"           # Name of the client for this task
-description: "short description"    # Max. 280 characters in description
-semester: 1-4                       # Please choose only one semester
-sprint: 1-18                        # Please choose only one sprint
-support-level: 1-5                  # 1:example 2:duplicate 3:experiment 4:extension 5:autonomous
+title: "Microinteractie Wijzer.amsterdam"
+subtitle: "Microinteractie ontwerpen en maken"
+client: "OBA"
+description: "Hoe kunnen we ervoor zorgen dat mensen de chat meer gaan gebruiken? "
+semester: 0
+sprint: 0
+support-level: 1
 behavior-criteria:                  # These criteria determine the skill level of a task
   collaboration: 0-6                # compared to the whole curriculum on a 6 point scale.
   learning-capacity: 0-6            # Make sure you understand the levels before changing
