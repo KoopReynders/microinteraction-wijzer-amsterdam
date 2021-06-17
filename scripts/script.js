@@ -1,19 +1,16 @@
 const main = document.querySelector('main')
-const chat = document.querySelector('#chat iframe')
+const trigger = document.querySelector('main i')
 const card = document.querySelector('div.card')
 const buttons = document.querySelectorAll('div.card button')
 
-const observer = new IntersectionObserver(showChat)
+const observer = new IntersectionObserver(showChat, {rootMargin: '0px 0px 50px 0px',threshold: 0})
 
-observer.observe(chat) 
+observer.observe(trigger) 
 
 buttons.forEach(button => button.addEventListener('click', flip))
 
 function showChat(entries, observer) { 
-  console.log("observer", entries);
-
   entries.forEach(entry => {
-
     if(entry.isIntersecting) {
       main.classList.add('observed')
     } else {
