@@ -1,17 +1,21 @@
 const main = document.querySelector('main')
-const trigger = document.querySelector('main i')
+// const trigger = document.querySelector('main i')
 const card = document.querySelector('div.card')
 const buttons = document.querySelectorAll('div.card button')
 
-const observer = new IntersectionObserver(showChat, {rootMargin: '0px 0px 50px 0px',threshold: 0})
-
-observer.observe(trigger) 
+const options = {
+  rootMargin: '0px 0px -50% 0px',
+  threshold: 0,
+}
+const observer = new IntersectionObserver(showChat,options)
+observer.observe(card) 
 
 buttons.forEach(button => button.addEventListener('click', flip))
 
-function showChat(entries, observer) { 
-  entries.forEach(entry => {
+function showChat(entries) { 
+  entries.map((entry) => {
     if(entry.isIntersecting) {
+      console.log("isIntersecting")
       main.classList.add('observed')
     } else {
       main.classList.remove('observed')

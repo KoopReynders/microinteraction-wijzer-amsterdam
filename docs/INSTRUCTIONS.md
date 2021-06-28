@@ -46,7 +46,6 @@ Eerst bekijken we wat het probleem is en waarom een microinteractie een goede op
 
 - [wijzer.amsterdam](https://wijzer.amsterdam)
 
-
 </details>
 
 ### Ontwerpen
