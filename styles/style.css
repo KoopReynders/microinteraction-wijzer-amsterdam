@@ -155,14 +155,6 @@ div.back {
     transform: rotateY(180deg);
 }
 
-/* geen button op de chat, die hoeft niet gesloten te worden */
-/* div.back button { 
-    position: absolute;
-    right:-1.5em;
-    top:-1.5em;
-    border-radius:50%;
-} */
-
 main section#wij-helpen-met {
     position:relative;
     top:5em
