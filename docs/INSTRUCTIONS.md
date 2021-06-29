@@ -1,4 +1,4 @@
-# Microinteraction ontwerpen en maken voor Wijzer.amsterdam
+# Microinteraction ontwerpen en maken voor wijzer.amsterdam
 
 De chat op de website wijzer.amsterdam wordt nauwelijks gebruikt. Mensen snappen niet dat ze een vraag kunnen stellen en gaan op de website zoeken naar hun onderwerp.
 
