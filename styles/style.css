@@ -4,26 +4,12 @@ body {
     margin:0;
 }
 img {max-width: 100%;}
-button {
-    background-color: #ff445b;
-    border:none;
-    outline:none;
-    color:#fff;
-    font-size: inherit;
-    padding:.5rem .75rem;
-    border-radius:.5rem;
-    font-weight: bold;
-    box-shadow: 2px 2px 4px rgba(100,100,100,0.6);
-}
-button:hover,button:focus{
-    cursor: pointer;
-    transform: scale(1.4);
-    box-shadow: 4px 4px 12px rgba(100,100,100,0.4);
-}
-button:active{
-    transform: scale(1.2);
-    box-shadow: 2px 2px 2px rgba(100,100,100,0.8);
-}
+
+/* 
+HEADER
+- logo
+- titel 
+*/
 header {
     background: url(pattern.svg),linear-gradient(-30deg,#5855b0,#a79cfb);
     color: #002b37;
@@ -43,61 +29,35 @@ header h1 span {
 }
 header p {
     font-size: 1.5em;
+    display: none;
 }
+
+
+/* 
+MAIN 
+- section chat
+- iframe
+*/
 main {
-    padding:4rem;
+
 }
-main section {
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    margin-bottom: 10em; /* iets meer om de content naar beneden te duwen */
-}
-main section#chat {
-    margin-top: -18rem; /* iets meer zodat het element goed in de header staat */
+
+/*
+CHAT
+*/
+section#chat {
+    margin: -20rem 0 10em 0; /* iets meer zodat het element goed in de header staat */
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-main section#chat h2 {
-    text-align: center;
-    position: relative;
-    font-size:1em;
-    font-weight:normal;
-    transform:translateY(2.5em);
-    transition:.25s .75s;
-}
-main.observed section#chat h2 {
-    transform: translateY(0);
-}
-main section#chat p {
-    margin-top:0;
-    transition: .25s 1s;
-    opacity:0
-}
-main.observed section#chat p {
-    opacity:1
-}
-main section#chat iframe {
-    padding: 0;
-    height: 100%;
-    width:100%;
-    border: none;
-    outline: none;
-    border-radius: .5em;
-}
 div.card {
-    width:50vw;
-    height:10vh;
+    width:30em;
+    height:20vh;
     position: relative;
-    transition:.25s .5s;
+    transition:.25s .5s; /* transition met delay */
 }
-main.observed div.card {
-    width:34em;
-    height:16em;
-    position: relative;
-}
-main section#chat div.card img {
+div.card img {
     position:absolute;
     left:-1.5em;
     top:-1.5em;
@@ -110,25 +70,11 @@ div.inner {
     position:relative;
     width:100%;
     height:100%;
-    
     transition: transform .25s ease-in-out;
     transform-origin: 50% 50%;
     transform-style: preserve-3d;
 }
-
-/* 
-    ook de flipped class op de main
-    zodat de breedte van de card kan worden aangepast
-*/
-main.flipped div.card div.inner {
-    transform: rotateY(180deg);
-}
-main.flipped div.card {
-    width:80vw;
-    height:60vh;
-}
-
-div.inner div {
+div.inner div { /* div front en div back*/
     position:absolute;
     top:0;
     left:0;
@@ -142,32 +88,80 @@ div.inner div {
     justify-content: center;
     align-items:center
 }
-div.front {
-}
-div.front button {
-    opacity:0;
-}
-main.observed div.front button {
-    transition: opacity .25s 1.5s;
-    opacity:1;
-}
 div.back {
     transform: rotateY(180deg);
 }
+div.front {
+    background: pink;
+}
+div.front h2{
+    font-size:1.5em;
+    font-weight:normal;
+}
+div.front button {
+    /* opacity:0; */
+    background-color: #ff445b;
+    border:none;
+    outline:none;
+    color:#fff;
+    padding:.5rem .75rem;
+    border-radius:.5rem;    
+    font-size: 1.5em;
+    font-weight: normal;
+    box-shadow: 2px 2px 4px rgba(100,100,100,0.6);
+    transition: transform .25s ease-in-out;
+    animation: wiggle 2.5s infinite;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    70% { transform: rotate(0deg); }
+    75% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }    
+    85% { transform: rotate(10deg); }
+    95% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+div.front button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 12px rgba(100,100,100,0.4);
+    animation: none;
+}
 
+/* 
+    flipped class 
+    Wordt aangeroepen door javascript
+*/
+div.card.flipped {
+    width:80vw;
+    height:24rem;
+}
+div.card.flipped div.inner {
+    transform: rotateY(180deg);
+}
+.flip{
+    transform: rotateY(180deg);
+}
+.grow {
+    width:80vw;
+    height:60vh;
+}
+
+
+/* 
+*/
+
+
+main section#chat iframe {
+    padding: 0;
+    height: 100%;
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: .5em;
+}
 main section#wij-helpen-met {
     position:relative;
-    top:5em
-}
-main i {
-    height: 10px;
-    width:10px;
-    content:"";
-    background-color: red;
-    position: absolute;
-    top:110vh;
-    left:0;
-    z-index:1000000;
-    opacity:0;
-
+    top:5em;
+    padding: 0 4rem;
 }
